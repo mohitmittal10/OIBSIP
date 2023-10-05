@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adventure Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Adventure Club</h2>
+        <p>Join us for thrilling adventures and unforgettable experiences.</p>
+        <a href="#events" class="cta-button">Explore Events</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget justo nec justo feugiat commodo. Donec euismod auctor arcu nec rhoncus.</p>
+    </section>
+
+    <section id="events" class="events">
+        <h2>Upcoming Events</h2>
+        <div class="event-card">
+            <img src="https://cdn1.matadornetwork.com/blogs/1/2020/06/Tourist-on-the-peak-of-high-rocks-1200x836.jpg" alt="Event 1">
+            <h3>Mountain Hiking Adventure</h3>
+            <p>Date: November 15, 2023</p>
+            <p>Location: Rocky Mountains</p>
+            <a href="#contact" class="cta-button">Join Now</a>
+        </div>
+
+        <div class="event-card">
+            <img src="https://southeastasiakayaking.com/wp-content/uploads/dynamik-gen/theme/images/page-exp-4b.jpg" alt="Event 2">
+            <h3>Kayaking Expedition</h3>
+            <p>Date: December 10, 2023</p>
+            <p>Location: Lake Adventure</p>
+            <a href="#contact" class="cta-button">Join Now</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to join an adventure, please contact us.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Adventure Club</p>
+    </footer>
+</body>
+</html>
